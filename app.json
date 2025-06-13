@@ -1,42 +1,22 @@
+
 {
-  "name": "PEACE-MD WhatsApp Bot",
-  "description": "A multi-functional WhatsApp bot using Baileys, by Peacemaker 💚",
+  "name": "PEACE MD - WhatsApp Bot",
+  "description": "A powerful WhatsApp Multi-Device bot using Baileys",
   "repository": "https://github.com/Peacemaker-cyber/PEACE",
-  "logo": "https://files.catbox.moe/06kaql.jpg",
-  "keywords": ["whatsapp", "bot", "baileys", "peace-md", "multi-device"],
+  "logo": "https://i.imgur.com/Ngy83JG.png",
+  "keywords": ["whatsapp", "bot", "baileys", "multi-device"],
+  "scripts": {
+    "postdeploy": "echo '✅ Bot deployed! Wait for pairing...'"
+  },
   "env": {
-    "SESSION_ID": {
-      "description": "Your PEACE~ Session ID string",
-      "required": true
-    },
-    "OWNER_NUMBER": {
-      "description": "Your WhatsApp number (e.g. 254752818245)",
-      "required": true
-    },
-    "OWNER_NAME": {
-      "description": "Bot owner name",
-      "required": true,
-      "value": "𝙋𝙀𝘼𝘾𝙀𝙈𝘼𝙆𝙀𝙍💚"
-    },
-    "BOT_NAME": {
-      "description": "The name of the bot",
-      "required": true,
-      "value": "𝐏ᴇᴀᴄᴇ 𝐌ᴅ"
+    "SESSION_ID_PREFIX": {
+      "description": "Prefix for session ID",
+      "value": "PEACE~"
     }
   },
   "buildpacks": [
     {
       "url": "heroku/nodejs"
     }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  },
-  "addons": [],
-  "scripts": {
-    "postdeploy": "echo '🎉 PEACE MD Deployed on Heroku!'"
-  }
+  ]
 }

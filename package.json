@@ -1,25 +1,26 @@
 {
-  "name": "peace-md-bot",
+  "name": "peace-md",
   "version": "1.0.0",
-  "description": "ᴘᴇᴀᴄᴇ ᴍᴅ WhatsApp Bot powered by Baileys",
+  "description": "Powerful WhatsApp Bot: ᴘᴇᴀᴄᴇ ᴍᴅ",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [
     "whatsapp-bot",
+    "peace-md",
     "baileys",
-    "peace-md"
+    "multi-device"
   ],
   "author": "Peacemaker",
   "license": "MIT",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.0",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "axios": "^1.7.0",
     "chalk": "^5.3.0",
-    "figlet": "^1.5.2",
-    "moment-timezone": "^0.5.43",
-    "pino": "^8.0.0",
-    "node-fetch": "^3.3.2",
+    "moment-timezone": "^0.5.44",
+    "pino": "^8.14.2",
+    "figlet": "^1.6.0",
     "qrcode-terminal": "^0.12.0",
     "fs-extra": "^11.2.0"
   }

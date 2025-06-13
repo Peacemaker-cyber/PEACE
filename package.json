@@ -2,9 +2,9 @@
   "name": "peace-md",
   "version": "1.0.0",
   "description": "Powerful WhatsApp Bot: ᴘᴇᴀᴄᴇ ᴍᴅ",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node bot.js"
   },
   "keywords": [
     "whatsapp-bot",

@@ -1,5 +1,5 @@
 const fs = require('fs');
-const configPath = './config.js';
+const configPath = './config.json';
 
 module.exports = {
   name: 'mode',

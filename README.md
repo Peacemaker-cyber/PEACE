@@ -1,44 +1,35 @@
-<h1 align="center">💚 𝙋𝙀𝘼𝘾𝙀 𝙈𝘿 - 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥 𝘽𝙤𝙩</h1>
-
+<h1 align="center">𝐏𝐄𝐀𝐂𝐄 𝐌𝐃 🤖</h1>
 <p align="center">
-   <img src="https://i.imgur.com/N6kzRFr.png" width="220" />
+  <img src="https://files.catbox.moe/06kaql.jpg" width="300"/>
 </p>
-
 <p align="center">
-   A powerful, multipurpose, cross-platform WhatsApp bot powered by <strong>Baileys</strong>, with support for AI, Downloads, Logos, Groups, Audio, Search, and more. <br/>
-   Built & Maintained by <strong>Peacemaker 💚</strong>
+  🌈 <b>Fast</b> ⚡ <b>Secure</b> 🔐 <b>Reliable</b> ✅
 </p>
 
 ---
 
-## 🚀 Features
+## 🚀 Deploy PEACE MD Bot
 
-| Category    | Commands                                |
-|-------------|------------------------------------------|
-| AI          | `.gpt`, `.dalle`, `.llama`, `.analyze`   |
-| Audio       | `.bass`, `.deep`, `.tomp3`, `.volume`    |
-| Download    | `.ytmp3`, `.ytmp4`, `.tiktok`, `.ig`     |
-| Group       | `.kick`, `.add`, `.promote`, `.welcome`  |
-| Settings    | `.mode`, `.setprefix`, `.anticall`       |
-| Fun & Info  | `.menu`, `.ping`, `.owner`, `.news`      |
+> Generate your WhatsApp session here:
+[🔑 GET PEACE MD SESSION](https://peace-md-pair-code-generator.render.com)
 
----
+### 🔧 One-Click Deploy
 
-## 🧠 Requirements
+[![Deploy on Heroku](https://img.shields.io/badge/🚀%20Deploy%20on-Heroku-f500af?style=for-the-badge)](https://heroku.com/deploy?template=https://github.com/Peacemaker-cyber/PEACE)
 
-- Node.js `18+`
-- Git
-- A WhatsApp number (for pairing)
-- A platform to deploy (Render/Heroku/Koyeb/etc.)
+[![Deploy on Render](https://img.shields.io/badge/🚀%20Deploy%20on-Render-00c6ff?style=for-the-badge)](https://render.com)
+
+[![Deploy on Railway](https://img.shields.io/badge/🚀%20Deploy%20on-Railway-bf00ff?style=for-the-badge)](https://railway.app?referralCode=AqkNn4)
 
 ---
 
-## 🌐 Deploy Platforms
+## 📦 Features
 
-### 📦 Local Development
-
-```bash
-git clone https://github.com/Peacemaker-cyber/PEACE.git
-cd PEACE
-npm install
-node .
+- 💬 Group & Private Chat Support
+- 🔐 AntiDelete, AntiEdit, AntiViewOnce, AntiCall
+- 📥 Media Downloader (YT, TikTok, IG, etc.)
+- 🧠 AI Chat (GPT, Dalle, PhotoAI)
+- 🔊 Audio Effects (bass, deep, tomp3)
+- 🎨 Logo & Text Logo Maker
+- 🛡️ Admin Controls
+- ✨ Dynamic Menu and Auto Connect Message

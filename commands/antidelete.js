@@ -1,4 +1,4 @@
-const { enableAntiDelete, disableAntiDelete, isAntiDeleteOn } = require('../lib/antiDelete');
+const { enableAntiDelete, disableAntiDelete, getAntiDeleteMode } = require('../lib/antiDelete');
 
 module.exports = {
   name: 'antidelete',
@@ -17,7 +17,7 @@ module.exports = {
       return m.reply('🛑 Anti-delete disabled.');
     }
 
-    enableAntiDelete(m.chat);
+    enableAntiDelete(m.chat, option);
     await sock.sendMessage(m.chat, {
       text: option === 'private' ? 
         '🕵️ Anti-delete is ON. Deleted messages will be sent to your DM.' : 
